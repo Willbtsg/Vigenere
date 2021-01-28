@@ -10,4 +10,5 @@ Vigenere Cracker- This programs accepts input in the form of ciphertext that has
 a key length of 3 (as specified by assignment). When analyzing the ciphertext, the program determines the most likely Caesar key for each third of the
 ciphertext. It then attempts decryption using the most likely key before displaying the options in order of likelihood to allow
 the user to attempt decryption if the most likely answer was incorrect. Users may make as many guesses as they like, or change
-the message that they wish to attempt to decrypt.
+the message that they wish to attempt to decrypt. Because this method of cipher cracking is probabilistic rather than deterministic, longer phrases are
+more likely to be accurately deciphered than shorter ones.
